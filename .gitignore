@@ -1,0 +1,23 @@
+# Local environments and secrets
+.venv/
+**/.venv/
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials.md
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and local tooling
+.vscode/
+.claude/
+.idea/
+
+# Generated, site-specific knowledge
+knowledge/schemas/*.json
+
+# Debug captures may contain authenticated page content
+code/debug_*

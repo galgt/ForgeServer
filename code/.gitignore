@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Credentials
+credentials.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Knowledge base (may contain site-specific data)
+knowledge/schemas/*.json
+
+# Playwright
+.playwright/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs
+*.log
